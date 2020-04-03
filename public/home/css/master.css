@@ -1,0 +1,15 @@
+body, html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+ height: 792px;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-image: url("../../images/bg.jpg");
+ background-color: #cccccc;
+}
