@@ -1,6 +1,6 @@
 # GCloud
 
-https://gcloud.netlify.com/
+https://gcloud.netlify.app/
 
 ## Introductie
 
@@ -20,7 +20,7 @@ In deze repository bevinden zich alle benodigde bestanden voor het K_ID examende
 
  Netlify gehoste website:
  
- > https://decine.netlify.com/
+ > https://gcloud.netlify.app/
  
  Persoonlijk gehoste websites:
  
