@@ -8,8 +8,9 @@ body {
   font-weight: lighter;
 }
 
-a {
-text-decoration: none;
+a{
+text-decoration: none !important;
+color: white !important;
 }
 a:hover {
 text-decoration: underline;
