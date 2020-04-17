@@ -134,3 +134,73 @@ nav ul li a {
   }
 
 }
+
+/* content */
+
+.card-title-games {
+  margin-bottom: 0;
+  margin-top: 3em;
+}
+
+.table {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.full-width {
+  height: 200px;
+  margin-top: 2em;
+}
+
+.full-width-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.img-info {
+  height: 100px;
+  vertical-align: middle;
+}
+
+.information {
+  margin-top: 5em;
+}
+
+.btn-right {
+  position: absolute;
+  right: 10%;
+  top: 32%;
+}
+
+.myImage {
+  float: right;
+  height: 300px;
+  width: 600px;
+  font-family: Veranda;
+}
+.heading {
+  float: left;
+}
+
+.information {
+  margin-top: 6em;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background-color: transparent !important;
+  color: white;
+}
+
+footer {
+  max-width: 100%;
+}
