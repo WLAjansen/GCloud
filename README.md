@@ -2,9 +2,9 @@
 
 https://gcloud.netlify.com/
 
-## Introduction
+## Introductie
 
-Trailers, actors and information website for newly released movies and series. Fetched from the OMDb API and The Movie Database API.
+In deze repository bevinden zich alle benodigde bestanden voor het K_ID examendeel project 'GCLOUD'
 
 ## Gemaakt met
  
