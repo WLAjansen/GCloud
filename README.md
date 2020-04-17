@@ -6,11 +6,11 @@ https://gcloud.netlify.com/
 
 Trailers, actors and information website for newly released movies and series. Fetched from the OMDb API and The Movie Database API.
 
-## Made with
+## Gemaakt met
  
  > Javascript
  
- > Axios
+ > JSON
  
  > HTML
   
@@ -18,13 +18,14 @@ Trailers, actors and information website for newly released movies and series. F
 
 ## Links 
 
- Netlify hosted website
+ Netlify gehoste website:
  
  > https://decine.netlify.com/
  
- Personal hosted website
+ Persoonlijk gehoste websites:
  
  > https://wlajansen.nl/decine/
+ > https://www.regiliospee.nl/GCloud
  
  ## User stories
 
