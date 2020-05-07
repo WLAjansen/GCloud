@@ -137,6 +137,29 @@ nav ul li a {
 
 }
 
+/* Abonnementskaart 'Advanced' */
+#advanced {
+  border-color: #0069d9;
+  border-width: medium; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#advanced hr {
+  border-color: #0069d9;
+  border-width: thin;
+}
+
+i.fas.fa-check {
+  color: #0069d9;
+}
+
+#grey-checks {
+  color: grey;
+}
+
+#advanced-btn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /* content */
 
 .card-title-games {
