@@ -137,7 +137,7 @@ nav ul li a {
 
 }
 
-/* Abonnementskaart 'Advanced' */
+/* Abonnementskaart */
 #advanced {
   border-color: #0069d9;
   border-width: medium; 
@@ -168,6 +168,20 @@ i.fas.fa-check {
 #card-title-gratis {
   font-weight: 350;
 }
+
+#header-abonnement {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+#header-p {
+  text-align: center;
+  font-size: 19;
+}
+/* Abonnementskaart */
+
 /* content */
 
 .card-title-games {
