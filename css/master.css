@@ -79,9 +79,14 @@ header {
 }
 
 
-@media(max-width: 767px) {
+@media(max-width: 786px) {
   .navbar-default {
     background-color: black;
+  }
+
+  .col-md {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
