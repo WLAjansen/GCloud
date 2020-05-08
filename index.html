@@ -12,7 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <!-- Jquery bron link -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <!-- Bootstrap CSS -->
+  <!-- Vinkjes bronlink -->
+  <script src="https://kit.fontawesome.com/a1151f592e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Bootstrap JS -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -21,7 +22,7 @@
 <body>
   <div class="wrapper">
     <header>
-      <nav class="navbar navbar-dark navbar-expand-md navbar-default">
+      <nav class="navbar fixed-top navbar-dark navbar-expand-md navbar-default">
             <div class="container-fluid"><a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 60px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
@@ -128,38 +129,39 @@
               <br>
 
 
-
-              <div class="table" id="scroll">
-                <p>Kies je versie en begin</p>
-
+<!-- Abonnement keuzes -->
+              <div class="table">
+                <h2 id="header-abonnement">Kies je versie en begin</h2>
+                <p id="header-p">Kies één van de abonnementen en begin met spelen!</p>
+                <br>
                 <div class="card-deck">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Gratis</h5>
+                      <h5 id="card-title-gratis" class="card-title">Gratis</h5>
                       <hr>
                       <br>
-                      <p class="card-text">Gamingsessie van 1 uur</p>
-                      <p class="card-text">Standaardtoegang</p>
-                      <p class="card-text">30fps</p>
+                      <p class="card-text">Gamingsessie van 1 uur <i id="grey-checks" class="fas fa-check"></i></p>
+                      <p class="card-text">Standaardtoegang <i id="grey-checks" class="fas fa-check"></i></p>
+                      <p class="card-text">30fps <i id="grey-checks" class="fas fa-check"></i></p>
                       <br>
-                      <a class="btn btn-primary" href="#" role="button">Word lid</a>
+                      <a class="btn btn-primary" href="#" role="button">GRATIS</a>
+                    </div>
+                  </div>
+                  <div id="advanced" class="card">
+                    <div class="card-body">
+                      <h5 id="card-title-advanced" class="card-title">Advanced</h5>
+                      <hr>
+                      <br>
+                      <p class="card-text">Verlengde sessielengte <i class="fas fa-check"></i></p>
+                      <p class="card-text">Voorrangstoegang <i class="fas fa-check"></i></p>
+                      <p class="card-text">60fps <i class="fas fa-check"></i></p>
+                      <br>
+                      <a class="btn btn-primary" href="#" role="button">WORD LID</a>
                     </div>
                   </div>
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Advanced</h5>
-                      <hr>
-                      <br>
-                      <p class="card-text">Verlengde sessielengte</p>
-                      <p class="card-text">Voorrangstoegang</p>
-                      <p class="card-text">60fps</p>
-                      <br>
-                      <a class="btn btn-primary" href="#" role="button">Word lid</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Premium</h5>
+                      <h5 class="card-title">Ultimate</h5>
                       <hr>
                       <br>
                       <p class="card-text">Verlengde sessielengte</p>
@@ -173,6 +175,7 @@
 
               </div>
             </div>
+            <!-- Abonnement keuzes -->
 
 
             <br>

@@ -25,6 +25,7 @@ In deze repository bevinden zich alle benodigde bestanden voor het K_ID examende
  Persoonlijk gehoste websites:
  
  > https://wlajansen.nl/decine/
+ 
  > https://www.regiliospee.nl/GCloud
  
  ## User stories
