@@ -79,38 +79,10 @@ header {
 }
 
 
-@media(max-width: 786px) {
-
-  .logo {
-        position: fixed;
-        top: 0;
-        margin-top: 16px;
+@media(max-width: 767px) {
+  .navbar-default {
+    background-color: black;
   }
-
-  nav ul {
-        max-height: 0px;
-        background: #000;
-  }
-
-  nav.black ul {
-        background: #000;
-  }
-
-  .showing {
-        max-height: 34em;
-  }
-
-  nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px;
-        text-align: center;
-  }
-
-  .menu-icon {
-        display: block;
-  }
-
 }
 
 /* Abonnementskaart */
@@ -217,11 +189,9 @@ i.fas.fa-check {
 }
 
 .jumbotron {
-  position: absolute;
-  top: 30%;
-  left: 20%;
   background-color: transparent !important;
   color: white;
+  text-align: center;
 }
 
 footer {
