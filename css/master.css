@@ -53,7 +53,7 @@ header {
   background:transparent;
 }
 .navbar-default.scrolled{
-  background:#000;
+  background: rgba(000, 0, 0, 0.6);;
 }
 
 .menu-icon {
