@@ -208,6 +208,7 @@ footer {
 .footer-dark {
   width: 100%;
   height: 400px;
-  background-image: url(your-path-here.jpg);
+  background-image: url(/img/tlou.jpg);
   background-size: 100% 100%;
 }​
+
