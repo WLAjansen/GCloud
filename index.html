@@ -25,9 +25,9 @@
               class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav mx-auto">
-              <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
               <li class="nav-item" role="presentation"><a class="nav-link" href="#scroll">Lidmaatschap</a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="over-ons.html">Over GCloud</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#overons">Over GCloud</a></li>
               <li class="nav-item" role="presentation"><a class="nav-link" href="#">Games</a></li>
             </ul>
             <ul class="nav navbar-nav">
@@ -108,7 +108,8 @@
                 </div>
               </div>
             </div>
-
+            <!-- Extra div om de autoscroll te voldaan -->
+            <div id="overons"></div>
               <div class="container shadow-sm information border rounded border-primary">
                 <img src="img/stadia.png" class="myImage img-fluid" />
                 <h3 class="heading">De beste functies, alleen
@@ -120,6 +121,7 @@
                 <p>Werkt naadloos met de Stadia
                   Controller.
                 </p>
+                <a id="meerinfo" href="over-ons.html"><p style="font-size: 13px;color:#0069d9;">Meer informatie...</p></a>
               </div>
 
               <br><br>
@@ -221,7 +223,7 @@
 
             <script type="text/javascript">
               $(window).scroll(function() {
-                $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+                $('nav').toggleClass('scrolled', $(this).scrollTop() > 20);
               });
             </script>
 
