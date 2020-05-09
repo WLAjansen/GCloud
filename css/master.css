@@ -15,9 +15,27 @@ a{
 text-decoration: none !important;
 color: white !important;
 }
-a:hover {
-text-decoration: underline;
+
+/* CTA knop 'Kopen' styling */
+
+a.nav-link.shadow.border.rounded.border-primary {
+  -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
+
+a.nav-link.shadow.border.rounded.border-primary:hover {
+  text-decoration: underline;
+background-color: #0069d9;
+-webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+}
+/* CTA knop 'Kopen' styling */
 
 header {
   width: 100%;
@@ -53,7 +71,7 @@ header {
   background:transparent;
 }
 .navbar-default.scrolled{
-  background: /* rgba(000, 0, 0, 0.6) */ black;
+  background: rgba(000, 0, 0, 0.8) ;
 }
 
 .menu-icon {
