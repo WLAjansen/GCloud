@@ -53,7 +53,7 @@ header {
   background:transparent;
 }
 .navbar-default.scrolled{
-  background: rgba(000, 0, 0, 0.6);;
+  background: /* rgba(000, 0, 0, 0.6) */ black;
 }
 
 .menu-icon {
@@ -135,14 +135,8 @@ i.fas.fa-check {
   text-align: center;
   font-size: 19;
 }
-/* Abonnementskaart */
 
 /* content */
-
-.card-title-games {
-  margin-bottom: 0;
-  margin-top: 3em;
-}
 
 .table {
   width: 94%;
@@ -173,6 +167,7 @@ i.fas.fa-check {
 
 .information {
   margin-top: 5em;
+  padding: 50px;
 }
 
 .btn-right {
@@ -181,10 +176,13 @@ i.fas.fa-check {
   top: 32%;
 }
 
+.pb-5, .py-5 {
+  padding-top: 6rem !important;
+}
+
 .myImage {
   float: right;
-  height: 300px;
-  width: 600px;
+  width: 550px;
   font-family: Veranda;
 }
 .heading {
