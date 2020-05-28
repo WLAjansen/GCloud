@@ -29,3 +29,12 @@ img {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
+#bestelbevestiging{
+    text-decoration: none !important;
+    text-color: #0069d9;
+}
+
+#uu{
+    color: #0069d9;
+}
