@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registreren | GCloud</title>
+    <title>Login | GCloud</title>
     <link rel="stylesheet" href="css/registratie.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,8 +14,8 @@
 <body>
     <div class="signup-form">	
         <form action="/examples/actions/confirmation.php" method="post">
-            <h2>Maak een account</h2>
-            <p class="lead">Nieuw bij GCloud?</p>
+            <h2>Login</h2>
+            <p class="lead">Welkom terug!</p>
             <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -24,32 +24,17 @@
             </div>
             <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
-                    <input type="email" class="form-control" name="email" placeholder="E-mailadres" required="required">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                     <input type="text" class="form-control" name="password" placeholder="Wachtwoord" required="required">
                 </div>
-            </div>
+            </div>    
             <div class="form-group">
-                <div class="input-group">
-                    <span class="input-group-addon">
-                        <i class="fa fa-lock"></i>
-                        <i class="fa fa-check"></i>
-                    </span>
-                    <input type="text" class="form-control" name="confirm_password" placeholder="Bevestig Wachtwoord" required="required">
-                </div>
-            </div>        
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block btn-lg">Registreer</button>
-                <!-- Link deze button naar bevestigingspagina (registratie-bev.html) -->
+                <button type="submit" class="btn btn-primary btn-block btn-lg">Inloggen</button>
+                <!-- Wat we hierna moeten doen is nog de vraag -->
             </div>
             <p class="small text-center">Als je klikt op de registreer knop ga je hierbij akkoord met onze <br><a href="#">Voorwaarden</a>, en <a href="#">Privacy beleid</a>.</p>
         </form>
-        <div class="text-center">Heb je al een account? <a href="login.html">Inloggen</a>.</div>
+        <div class="text-center">Heb je nog geen account? <a href="registreren.html">Registreren</a>.</div>
     </div>
 </body>
 </html>
