@@ -1,9 +1,9 @@
 # GCloud
 
-v1
+Oud
 https://gcloudv1.netlify.app/
 
-v2 
+Nieuw
 https://gcloud.netlify.app/
 
 ## Introductie
