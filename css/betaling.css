@@ -78,8 +78,7 @@ input:focus+label {
 
 .btn-pay {
     background-color: #304FFE !important;
-    height: 50px;
-    width: 45vw;
+    width: 42vw;
     color: #ffffff !important;
     font-weight: bold
 }
