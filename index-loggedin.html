@@ -1,0 +1,232 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GCLOUD | Home</title>
+  <meta name="author" content="Regilio Spee" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/master.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Jquery bron link -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- Vinkjes bronlink -->
+  <script src="https://kit.fontawesome.com/a1151f592e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="home" class="wrapper">
+    <header>
+      <nav class="navbar fixed-top navbar-dark navbar-expand-md navbar-default">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 60px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav mx-auto">
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#home">Home</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#nieuwegames">Games</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#overons">Over GCloud</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#scroll">Lidmaatschap</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation"><a class="nav-link shadow border rounded border-primary" href="registreren.html" style="color: #ffffff;font-size: 14px;">&nbsp;Registreren&nbsp;</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="container h-100 d-flex">
+          <div class="jumbotron jumbotron-fluid my-auto">
+          <h1 class="display-4 font-weight-bold">Koop GCloud en krijg gelijk
+            toegang tot de nieuwste games </h1>
+          <br><br>
+          <a class="btn btn-primary rounded-pill pl-4 pr-4" href="#scroll" role="button"> Bekijk het aanbod </a>
+        </div>
+      </div>
+    </header>
+    <!-- Extra div om smoothscrolling te voldaan -->
+    <div id="nieuwegames"></div>
+    <div class="content">
+      <div class="container">
+        <p>Nieuwe games</p>
+        <div class="row ">
+          <div class="col-md">
+            <div class="card shadow bg-white text-white">
+              <img src="img/sekiro.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card shadow bg-white text-white">
+              <img src="img/rdr2.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card shadow bg-white text-white">
+              <img src="img/r6s.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+              </div>
+            </div>
+          </div>
+
+<div class="container">
+          <div class="banner">
+            <div class="card shadow-lg text-white full-width">
+              <img src="img/tlou.gif" class="card-img full-width-img" alt="...">
+              <div class="card-img-overlay">
+                <img src="img/tlou.png" style="width: 300px;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="container">
+            <br>
+            <div class="row ">
+              <div class="col-md">
+                <div class="card shadow bg-white text-white">
+                  <img src="img/resident.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card shadow bg-white text-white">
+                  <img src="img/doom.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card shadow bg-white text-white">
+                  <img src="img/uncharted.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Extra div om de autoscroll te voldaan -->
+            <div id="overons"></div>
+              <div class="container shadow information border rounded border-primary">
+                <img src="img/stadia.png" class="myImage img-fluid" />
+                <h3 class="heading">De beste functies, alleen
+                  bij GCLoud</h3> <br><br><br>
+                <p>Speel op je tv3 in tot wel 4K Ultra HD
+                  met HDR.</p><br>
+                <p>Verbazingwekkende graphics bij tot
+                  120 FPS.</p><br>
+                <p>Werkt naadloos met de Stadia
+                  Controller.
+                </p>
+                <a class="bg-secondary rounded-pill p-2" id="meerinfo" href="over-ons.html" style="font-size: 14px">Meer informatie</a>
+              </div>
+
+              <br><br>
+              <!-- Extra div toegevoegd voor correcte scroll -->
+              <div id="scroll"></div>
+              <!-- Abonnement keuzes -->
+              <div class="table">
+                <h2 id="header-abonnement">Kies je versie en begin</h2>
+                <p id="header-p">Kies één van de abonnementen en begin met spelen!</p>
+                <br>
+                <div class="card-deck">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 id="card-title-gratis" class="card-title">Gratis</h5>
+                      <hr>
+                      <br>
+                      <p class="card-text">Gamingsessie van 1 uur <i id="grey-checks" class="fas fa-check"></i></p>
+                      <p class="card-text">Standaardtoegang <i id="grey-checks" class="fas fa-check"></i></p>
+                      <p class="card-text">30fps <i id="grey-checks" class="fas fa-check"></i></p>
+                      <br>
+                      <a class="btn btn-primary rounded-pill" href="cart/gratis.html" role="button">Gratis</a>
+                    </div>
+                  </div>
+                  <div id="advanced" class="card">
+                    <div class="card-body">
+                      <h5 id="card-title-advanced" class="card-title">Advanced</h5>
+                      <hr>
+                      <br>
+                      <p class="card-text">Verlengde sessielengte <i class="fas fa-check"></i></p>
+                      <p class="card-text">Voorrangstoegang <i class="fas fa-check"></i></p>
+                      <p class="card-text">60fps <i class="fas fa-check"></i></p>
+                      <br>
+                      <a class="btn btn-primary rounded-pill" href="cart/advanced.html" role="button">Word lid</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Ultimate</h5>
+                      <hr>
+                      <br>
+                      <p class="card-text">Onbeperkte sessieduur <i class="fas fa-check"></i></p>
+                      <p class="card-text">Voorrangstoegang <i class="fas fa-check"></i></p>
+                      <p class="card-text">120fps <i class="fas fa-check"></i></p>
+                      <br>
+                      <a class="btn btn-primary rounded-pill" href="cart/ultimate.html" role="button">Word lid</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Abonnement keuzes -->
+            <footer class="footer-dark"></footer>
+            <br>
+
+            <footer class="container py-5">
+     <div class="row">
+       <div class="col-12 col-md">
+         <img src="img/logo-black.png" width="50" height="50">
+         <small class="d-block mb-3 text-muted">&copy; 2019-2020</small>
+       </div>
+       <div class="col-6 col-md">
+         <h5>Social Media</h5>
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="socials.html">Instagram</a></li>
+           <li><a class="text-muted" href="socials.html">Twitter</a></li>
+           <li><a class="text-muted" href="socials.html">Facebook</a></li>
+           <li><a class="text-muted" href="socials.html">Linkedin</a></li>
+         </ul>
+       </div>
+       <div class="col-6 col-md">
+         <h5>Contact</h5>
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="github.html">Github</a></li>
+           <li><a class="text-muted" href="mailto:contact@gcloud">Mail</a></li>
+         </ul>
+       </div>
+       <div class="col-6 col-md">
+         <h5>Varianten</h5>
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="#">Zakelijk</a></li>
+           <li><a class="text-muted" href="#">Onderwijs</a></li>
+           <li><a class="text-muted" href="#">Particulier</a></li>
+         </ul>
+       </div>
+       <div class="col-6 col-md">
+         <h5>Over ons</h5>
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="#"onclick="window.open('https://www.linkedin.com/in/lucas-jansen-boekee-69a220187/');window.open('https://www.linkedin.com/in/regilio-spee-1a8870182/');">Team</a></li>
+           <li><a class="text-muted" target="_blank" href="https://www.google.com/maps/uv?hl=en&pb=!1s0x47c5e28849730d2f%3A0x5dffd675d740eddb!3m1!7e115!4s%2Fmaps%2Fplace%2Fmediacollege%2Bamsterdam%2F%4052.3910707%2C4.8554954%2C3a%2C75y%2C100.13h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s7WTDRGiuv16zqgdAE6sELQ*212e0*214m2*213m1*211s0x47c5e28849730d2f%3A0x5dffd675d740eddb%3Fsa%3DX!5smediacollege%20amsterdam%20-%20Google%20Search!15sCAQ&imagekey=!1e10!2sAF1QipMcN48vhxbcUGsFfaFQhKcdFcoyw0A2xrIf_vPr&sa=X&ved=2ahUKEwj-lYvAnK7pAhUOyqQKHak3C1IQpx8wH3oECAwQCw">Mediacollege</a></li>
+           <li><a class="text-muted" href="#">Privacy</a></li>
+           <li><a class="text-muted" href="#">Voorwaarden</a></li>
+         </ul>
+       </div>
+     </div>
+   </footer>
+
+
+
+            <script type="text/javascript">
+              $(window).scroll(function() {
+                $('nav').toggleClass('scrolled', $(this).scrollTop() > 20);
+              });
+            </script>
+
+</body>
+
+</html>
