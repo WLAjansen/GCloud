@@ -246,6 +246,28 @@ footer {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Scrollbar Firefox */
-
-body
+/* Over ons css */
+#how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+#how-section1 h4{
+  color: #0086fd;
+  font-weight: bold;
+  font-size: 30px;
+}
+#how-section1 .subheading{
+  color: #545454;
+  font-size: 20px;
+}
+#how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 550px;
+}
