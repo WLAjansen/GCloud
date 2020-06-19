@@ -38,13 +38,16 @@ body{
     color: #0062cc;
 }
 .profile-edit-btn{
-    border: none;
+    border: 1px solid;
     border-radius: 1.5rem;
     width: 100%;
-    padding: 2%;
+    padding: 5px 20px 5px 20px;
     font-weight: 600;
     color: #6c757d;
     cursor: pointer;
+}
+.profile-edit-btn:hover {
+    text-decoration: none;
 }
 .proile-rating{
     font-size: 12px;
